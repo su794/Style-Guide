@@ -1,0 +1,109 @@
+body {
+	font-family: 'Otomanopee One', sans-serif;
+	margin: 0;
+  	padding: 0;
+  	/*background-color: #ccbce3;*/
+}
+
+button {
+	background: transparent;
+	border: 1px solid black;
+	font: inherit;
+	cursor: pointer;
+}
+
+.theme-wrapper {
+	max-width: 850px;
+	margin: 100px auto 0;
+}
+
+.list-items {
+	list-style-type: none;
+	text-align: right;
+}
+
+.icon-list {
+	display: inline-block;
+}
+
+.icon-list i {
+	font-size: 25px;
+	margin: 0 5px;
+	cursor: pointer;
+	transition: color .25s ease-in-out;
+}
+
+.icon-list i:hover {
+	color: #829cd1;
+}
+
+/********* Color *********/
+
+.color-section,
+.mark-section,
+.text-section {
+	display: none;
+	position: relative;
+	margin-bottom: 50px;
+	width: 100%;
+}
+.color-input {
+	padding: 0 15px;
+	font: inherit;
+	width: 80%;
+	height: 50px;
+	margin-bottom: 5px;
+}
+
+.color-box {
+	display: inline-block;
+	width: 90px;
+	height: 90px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+}
+
+.color-box:hover {
+	opacity: .6;
+	cursor: pointer;
+}
+
+.color-code {
+	margin: 30px 10px;
+}
+/********* Markdown *********/
+
+.mark-input {
+	width: 80%;
+	padding: 15px;
+	font: inherit;
+}
+
+/********* Paragraph Style *********/
+.style-area {
+	display: flex;
+	align-items: center;
+	margin: 15px 0;
+}
+
+.style-area input,
+.style-area select {
+	padding: 4px 0;
+	font: inherit;
+}
+
+.italic i {
+	font-size: 17px;
+}
+.is-space {
+	margin: 0 5px;
+}
+
+.text-input {
+	width: 100%;
+	padding: 15px;
+}
+
+.italic-active {
+	font-style: italic;
+}
